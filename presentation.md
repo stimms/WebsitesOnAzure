@@ -46,6 +46,12 @@ Works at a number of different levels
 
 !
 
+ ## End points
+
+ - 24 CDN edge nodes
+
+!
+
 ## Costs
 
 - Minimum website will run about $10/month
