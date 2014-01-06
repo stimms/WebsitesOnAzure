@@ -14,6 +14,38 @@ Works at a number of different levels
 
 !
 
+## Data centers
+
+- Numerous location all over the world
+- Excellent coverage for North America and Europe
+- Good coverage of SE Asia
+
+!
+
+## Data centers
+
+- North America
+  - North-central US - Chicago, IL
+  - South-central US - San Antonio, TX
+  - West US - California
+  - East US - Virginia
+- Asia
+  - East Asia - Hong Kong, China
+  - South East Asia - Singapore
+
+!
+
+## Data centers
+
+- Europe
+  - North Europe - Dublin, Ireland
+  - West Europe - Amsterdam, Netherlands
+- Oceania (announced, coming soon)
+  - Sydney, New South Wales
+  - Melbourne, Victoria
+
+!
+
 ## Costs
 
 - Minimum website will run about $10/month
@@ -36,11 +68,51 @@ Works at a number of different levels
 
 !
 
-There are 3 different methods 
+Today we'll look at 3 different services 
 
  - Virtual Machines
  - Cloud Services
  - Azure Websites
+
+!
+
+## Virtual Machines
+
+- Most control
+- Most work
+- Doesn't offer many of the advantages of the cloud
+
+!
+
+## Demo!
+
+!
+
+## Cloud Services
+
+- The origial method of using Azure
+- Services are either web or worker process
+- Offers some tie in to scaling
+
+!
+
+## Demo!
+
+!
+
+## Websites
+
+- Newest method of deployment
+- Supports a variety of tie ins
+  - github (git)
+  - dropbox
+  - bitbucket (mercurial)
+  - code plex
+  - Visual studio online
+
+!
+
+## Demo!
 
 !
 
@@ -57,16 +129,24 @@ There are 3 different methods
 ## Additional services
 
  - Queues
- - Hadoop
+ - Hadoop (Hindsight)
  - Authentication
  - Milti-factor authentication
  - Media services
 
- !
+!
 
- ## Questions?
+## Additional services
 
- - @stimms
- - http://blog.simontimms.com
- - Slides: 
+- Automatic scaling
+- Biztalk
+- Visual Studio
+
+!
+
+## Questions?
+
+ - Twitter: @stimms
+ - Blog: http://blog.simontimms.com
+ - Slides: https://github.com/stimms/WebsitesOnAzure
 
