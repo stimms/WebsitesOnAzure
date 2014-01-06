@@ -22,14 +22,20 @@
     position: fixed;
     bottom: 1em;
     right: 2px;
-    height:1.3em;
+    height:1.5em;
     width:8em;
     overflow:hidden;
   }
+   .slideProgress
+  {
+    background-color: green;
+    width: 100%;
+    min-height: 10px;
+  }
   .slideCount select {
-    color:white;
-    background-color:#112;
-    border-color:#112;
+    color:black;
+    background-color:transparent;
+    border-color:transparent;
     border:none;
     font-size:1em;
     height:1.3em;
@@ -120,6 +126,8 @@ if (!window.jQuery) {
 <div class="slideCount">
   <select tabindex="-1">
   </select>
+
+  <div class="slideProgress"></div>
 </div>
 
   <div class="padding">
@@ -172,7 +180,8 @@ Present.showSlide = function(slide) {
   slide = Math.max(0, Math.min(slide, Present.slides.length - 1));
   Present.currentSlide = slide;
 
-  var $view = $('.for-screen .centered');
+  var $view = $('.for-screen .centered'); 
+  $('.slideProgress').css("width", (this.currentSlide + 1)/this.slides.length * 100 + "%");
   this.currentEffect.pre($view, $.proxy(function () {
       $view.html(this.slides[this.currentSlide]);
       this.currentEffect.post($view);
